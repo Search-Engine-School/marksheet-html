@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  border: 3px solid rgb(224, 134, 16);
+  margin: 20px;
+}
+.head-section {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.logo img {
+  height: 200px;
+}
+.school-name {
+  text-align: center;
+}
+.grading table th,
+.grading table td {
+  padding: 2px 5px;
+  text-align: center;
+  border: 2px solid rgb(224, 134, 16);
+}
+.progress-report-heading {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+.progress-report-heading table {
+  width: 70%;
+  margin-left: 10px;
+}
+.progress-report-heading table th {
+  text-align: start;
+  text-transform: uppercase;
+}
+.progress-table {
+  display: flex;
+  justify-content: center;
+}
+.progress-table table {
+  width: 98%;
+  border: 1px solid rgb(224, 134, 16);
+  border-collapse: collapse;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.progress-table th,
+.progress-table td {
+  border: 1px solid rgb(224, 134, 16);
+  border-collapse: collapse;
+}
+.final-report-table-section {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 90% 8%;
+}
+.final-report-table table {
+  width: 100%;
+  border: 1px solid rgb(224, 134, 16);
+  border-collapse: collapse;
+  text-align: center;
+}
+.final-report-table th,
+.final-report-table td {
+  border: 1px solid rgb(224, 134, 16);
+  border-collapse: collapse;
+}
+.sign-part {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.sign-names {
+  border-top: 2px solid black;
+  font-weight: 700;
+  padding: 3px 20px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 3px 20px;
+}
